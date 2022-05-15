@@ -1,11 +1,9 @@
-
-
 html {
     font-size: 62.5%;
 }
 
 body {
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -99,7 +97,8 @@ section {
     background-color: #fff;
     display: block;
     float: left;
-    font-size: 1.5rem; /* equivalente a 15px */ 
+    font-size: 1.5rem;
+    /* equivalente a 15px */
     padding: 20px;
     width: 100%;
 }
@@ -136,7 +135,7 @@ section article {
 }
 
 footer {
-    background-color: #254159;  
+    background-color: #254159;
     display: block;
     float: left;
     padding: 20px;
@@ -159,10 +158,11 @@ footer small {
 }
 
 @media (max-width: 425px) {
+
     section nav,
     section article {
         width: 100%;
-    }  
+    }
 
     .container {
         padding-left: 1%;
