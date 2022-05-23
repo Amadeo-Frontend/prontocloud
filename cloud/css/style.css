@@ -106,7 +106,7 @@ section {
 section nav {
     display: block;
     float: left;
-    width: 30%;
+    width: 100%;
 }
 
 nav li {
@@ -130,8 +130,8 @@ nav a:hover {
 
 section article {
     display: block;
-    float: left;
-    width: 70%;
+    float: right;
+    width: 87%;
 }
 
 footer {
@@ -155,6 +155,8 @@ footer small {
 .cognito {
     height: 350px !important;
     overflow: hidden !important;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 425px) {
@@ -163,9 +165,33 @@ footer small {
     section article {
         width: 100%;
     }
+    p {
+        font-size: .8em;
+    }
 
     .container {
         padding-left: 1%;
         padding-right: 1%;
+    }
+    section article {
+        display: block;
+        float: right;
+        width: 90%;
+    }
+    .cognito {
+        height: 300px !important;
+        overflow: hidden !important;
+        justify-content: center;
+        align-items: center;
+    }
+    #tenho-interesse {
+        padding-left: 0%;
+    }
+   
+    @media (max-width: 768px){
+        section nav,
+        section article {
+            width: 100%;
+        }
     }
 }
