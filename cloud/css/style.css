@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -14,8 +15,6 @@ body {
 }
 
 .container {
-    display: block;
-    float: left;
     padding: 20px;
     max-width: 100%;
     margin: 0 auto;
@@ -84,6 +83,17 @@ img {
     color: #385874;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul li {
+    border-radius: 25%;
+}
+
 ol {
     margin-left: 30px;
 }
@@ -99,20 +109,14 @@ section {
     float: left;
     font-size: 1.5rem;
     /* equivalente a 15px */
-    padding: 20px;
-    width: 100%;
-}
-
-section nav {
-    display: block;
-    float: left;
+    padding: 0px;
     width: 100%;
 }
 
 nav li {
     background-color: #efefef;
     margin: 1px 20px 1px 0;
-    padding: 10px;
+    padding: 1rem;
 }
 
 nav li:hover {
@@ -128,17 +132,11 @@ nav a:hover {
     color: #385874;
 }
 
-section article {
-    display: block;
-    float: right;
-    width: 87%;
-}
-
 footer {
     background-color: #254159;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 2rem;
     width: 100%;
 }
 
@@ -153,7 +151,7 @@ footer small {
 }
 
 .cognito {
-    height: 350px !important;
+    height: 35rem !important;
     overflow: hidden !important;
     justify-content: center;
     align-items: center;
@@ -165,6 +163,11 @@ footer small {
     section article {
         width: 100%;
     }
+
+    section {
+        padding-left: 0;
+    }
+
     p {
         font-size: .8em;
     }
@@ -173,22 +176,26 @@ footer small {
         padding-left: 1%;
         padding-right: 1%;
     }
+
     section article {
         display: block;
         float: right;
         width: 90%;
     }
+
     .cognito {
-        height: 300px !important;
+        height: 30rem !important;
         overflow: hidden !important;
         justify-content: center;
         align-items: center;
     }
+
     #tenho-interesse {
         padding-left: 0%;
     }
-   
-    @media (max-width: 768px){
+
+    @media (max-width: 768px) {
+
         section nav,
         section article {
             width: 100%;
