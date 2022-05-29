@@ -1,0 +1,325 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 1%;
+    width: 98%;
+    max-width: 1290px;
+}
+
+header {
+    background: #fff;
+    display: block;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid #254159;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #254159;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #385874;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse {
+    background-color: #e6eff8;
+    width: 100%;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+    background-color: #b8c8d6 !important;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #385874 !important;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ol li {
+    font-size: 1.4rem;
+    color: #454545;
+}
+
+section {
+    background-color: #fff;
+    display: block;
+    float: left;
+    font-size: 1.5rem;
+    /* equivalente a 15px */
+    padding: 0px;
+    width: 100%;
+}
+
+nav li {
+    background-color: #efefef;
+    margin: 1px 20px 1px 0;
+    padding: 1rem;
+}
+
+nav li:hover {
+    background-color: #dfdfdf;
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover {
+    color: #385874;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+article h1,
+article p {
+    align-items: center;
+}
+
+footer {
+    background-color: #254159;
+    display: block;
+    float: left;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+.cognito {
+    height: 35rem !important;
+    overflow: hidden !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: orangered;
+    border-radius: 30px;
+}
+
+#banner {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+}
+
+.legenda-container {
+    width: 30vw;
+    float: right;
+    margin: 10vh 10vh 0 0;
+}
+
+.legenda {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.legenda h5,
+.legenda h4 {
+    color: #254159;
+    line-height: 150%;
+}
+
+.button-cta {
+    display: block;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #454545;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 10px 7px;
+    font-weight: 300;
+    float: right;
+}
+
+.button-cta:hover {
+    cursor: pointer;
+    background-color: rgb(251, 54, 54);
+    box-shadow: 0 0 5px rgb(251, 54, 54);
+    box-shadow: 0 0 20px rgb(251, 54, 54);
+    box-shadow: 0 0 40px rgb(251, 54, 54);
+}
+
+#saiba-mais {
+    background-color: #e6eff8;
+}
+
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+#saiba-mais a {
+    margin-top: 10px;
+}
+
+dl {
+    margin-top: 20px;
+}
+
+dt {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+dd {
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+#duvidas {
+    background-color: #b8c8d6;
+}
+
+#duvidas img {
+    float: right;
+    max-width: 100%;
+    height: auto;
+
+}
+
+#duvidas a {
+    float: left;
+    margin-bottom: 20px;
+}
+
+#saiba-mais a {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 16rem;
+}
+
+
+
+@media (max-width: 425px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    section nav section article {
+        width: 100%;
+    }
+
+    .button-cta {
+        font-size: 1.2rem;
+    }
+
+    .legenda {
+        padding: 5px;
+        margin-bottom: 0;
+    }
+
+    section {
+        padding-left: 0;
+    }
+
+    p {
+        font-size: .8em;
+    }
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+
+    .cognito {
+        height: 30rem !important;
+        overflow: hidden !important;
+    }
+
+    #tenho-interesse {
+        padding-left: 0%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    section nav,
+    section article {
+        width: 100%;
+    }
+}
