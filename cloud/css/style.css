@@ -25,7 +25,7 @@ header {
     background: #fff;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid #254159;
 }
@@ -83,6 +83,10 @@ img {
     color: #385874;
 }
 
+#tenho-interesse .cog-form__content {
+    background-color: #b8c8d6 !important;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -136,7 +140,7 @@ footer {
     background-color: #254159;
     display: block;
     float: left;
-    padding: 2rem;
+    padding: 2rem 0;
     width: 100%;
 }
 
@@ -151,7 +155,7 @@ footer small {
 }
 
 .cognito {
-    height: 35rem !important;
+    height: 40rem !important;
     overflow: hidden !important;
     justify-content: center;
     align-items: center;
@@ -184,10 +188,8 @@ footer small {
     }
 
     .cognito {
-        height: 30rem !important;
+        height: 40rem !important;
         overflow: hidden !important;
-        justify-content: center;
-        align-items: center;
     }
 
     #tenho-interesse {
