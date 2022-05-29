@@ -84,6 +84,10 @@ img {
     color: #385874 !important;
 }
 
+#tenho-interesse .cog-form__content {
+    background-color: #e6eff8 !important;
+}
+
 ol {
     margin-left: 30px;
 }
@@ -152,7 +156,7 @@ footer small {
 }
 
 .cognito {
-    height: 35rem !important;
+    height: 40rem !important;
     overflow: hidden !important;
 }
 
@@ -307,7 +311,7 @@ dd {
 
 
     .cognito {
-        height: 30rem !important;
+        height: 40rem !important;
         overflow: hidden !important;
     }
 
