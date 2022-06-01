@@ -204,3 +204,11 @@ footer small {
         }
     }
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: orangered;
+    border-radius: 30px;
+}
