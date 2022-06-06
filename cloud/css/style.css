@@ -91,6 +91,7 @@ ol {
 ol li {
     font-size: 1.4rem;
     color: #454545;
+    margin-bottom: 10px;
 }
 
 section {
