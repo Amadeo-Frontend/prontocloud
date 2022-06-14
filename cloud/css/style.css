@@ -158,8 +158,17 @@ footer small {
 .cognito {
     height: 40rem !important;
     overflow: hidden !important;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+
+}
+
+.container article {
+    display: block;
+    margin-left: auto !important;
+
+}
+#tenho-interesse article {
+    width: 70%;
 }
 
 @media (max-width: 425px) {
@@ -196,15 +205,18 @@ footer small {
     #tenho-interesse {
         padding-left: 0%;
     }
-
+}
     @media (max-width: 768px) {
 
         section nav,
         section article {
             width: 100%;
         }
+        #tenho-interesse article {
+            width: 100%;
+        }
     }
-}
+
 
 ::-webkit-scrollbar {
     width: 10px;
